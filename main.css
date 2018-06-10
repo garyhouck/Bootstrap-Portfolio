@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/concrete-texture.png);
+}
+.navbar-brand {
+    background-color: #4aaaa5;    
+    height: 80px;
+    width: 300px;
+    text-align: center;
+}
+li {
+  display:inline;
+  padding-left: 20px;        
+}
+h1 {
+  color: white;
+}
+.row {
+    margin-bottom: 20px;
+}
+#main {
+    margin-top: 50px;
+}
+.label {
+    background-color: #4aaaa5;
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: white;
+}
+footer {
+    background-color: #666;
+    border-top: #4aaaa5 10px solid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 95%;
+}
