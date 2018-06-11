@@ -1,24 +1,46 @@
 body {
-    background-image: url(../images/concrete-texture.png);
+	width: 100%;
+    background-image: url(images/concrete-texture.png);
+    color: #777;
+}
+.container {
+    padding: 0;
+}
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: #ccc 1px solid;
 }
 .navbar-brand {
     background-color: #4aaaa5;    
     height: 80px;
-    width: 300px;
+    width: 250px;
     text-align: center;
+    padding-top: 15px;
 }
 li {
   display:inline;
   padding-left: 20px;        
 }
+a {
+    color: #777;
+}
 h1 {
   color: white;
+}
+h2 {
+    color: #4aaaa5;
+    padding-top: 15px;
 }
 .row {
     margin-bottom: 20px;
 }
 #main {
-    margin-top: 50px;
+	margin-top: 50px;
+    background-color:#fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: #ddd 2px solid;
 }
 .label {
     background-color: #4aaaa5;
@@ -40,4 +62,16 @@ footer p {
     text-align: center;
     position: relative;
     top: 95%;
+}
+.btn {
+    background-color: #4aaaa5;
+    border: #4aaaa5;
+}
+form {
+    padding-bottom: 15px;
+}
+#space {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
 }
